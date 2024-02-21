@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83E117D2B8692B500958884 /* SakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E117C2B8692B500958884 /* SakeApp.swift */; };
+		A83E117F2B8692B500958884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E117E2B8692B500958884 /* ContentView.swift */; };
+		A83E11812B8692B600958884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83E11802B8692B600958884 /* Assets.xcassets */; };
+		A83E11842B8692B600958884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83E11832B8692B600958884 /* Preview Assets.xcassets */; };
+		A83E118E2B8692B600958884 /* sakeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E118D2B8692B600958884 /* sakeAppTests.swift */; };
+		A83E11982B8692B600958884 /* sakeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11972B8692B600958884 /* sakeAppUITests.swift */; };
+		A83E119A2B8692B600958884 /* sakeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11992B8692B600958884 /* sakeAppUITestsLaunchTests.swift */; };
+		A83E11A72B86950900958884 /* SakeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11A62B86950900958884 /* SakeListView.swift */; };
+		A83E11A92B86959D00958884 /* SakeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11A82B86959D00958884 /* SakeMapView.swift */; };
+		A83E11AB2B86963700958884 /* Sake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11AA2B86963700958884 /* Sake.swift */; };
+		A83E11AD2B86978400958884 /* SakeBrandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11AC2B86978400958884 /* SakeBrandListView.swift */; };
+		A86074C82B869BD9008669DA /* Dev in Resources */ = {isa = PBXBuildFile; fileRef = A86074C72B869BD9008669DA /* Dev */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83E118A2B8692B600958884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83E11712B8692B500958884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83E11782B8692B500958884;
+			remoteInfo = sakeApp;
+		};
+		A83E11942B8692B600958884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83E11712B8692B500958884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83E11782B8692B500958884;
+			remoteInfo = sakeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A83E11792B8692B500958884 /* sakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E117C2B8692B500958884 /* SakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeApp.swift; sourceTree = "<group>"; };
+		A83E117E2B8692B500958884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A83E11802B8692B600958884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83E11832B8692B600958884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A83E11892B8692B600958884 /* sakeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sakeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E118D2B8692B600958884 /* sakeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sakeAppTests.swift; sourceTree = "<group>"; };
+		A83E11932B8692B600958884 /* sakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sakeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E11972B8692B600958884 /* sakeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sakeAppUITests.swift; sourceTree = "<group>"; };
+		A83E11992B8692B600958884 /* sakeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sakeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A83E11A62B86950900958884 /* SakeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeListView.swift; sourceTree = "<group>"; };
+		A83E11A82B86959D00958884 /* SakeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeMapView.swift; sourceTree = "<group>"; };
+		A83E11AA2B86963700958884 /* Sake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sake.swift; sourceTree = "<group>"; };
+		A83E11AC2B86978400958884 /* SakeBrandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeBrandListView.swift; sourceTree = "<group>"; };
+		A86074C72B869BD9008669DA /* Dev */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dev; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83E11762B8692B500958884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11862B8692B600958884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11902B8692B600958884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83E11702B8692B500958884 = {
+			isa = PBXGroup;
+			children = (
+				A86074C72B869BD9008669DA /* Dev */,
+				A83E117B2B8692B500958884 /* sakeApp */,
+				A83E118C2B8692B600958884 /* sakeAppTests */,
+				A83E11962B8692B600958884 /* sakeAppUITests */,
+				A83E117A2B8692B500958884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A83E117A2B8692B500958884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11792B8692B500958884 /* sakeApp.app */,
+				A83E11892B8692B600958884 /* sakeAppTests.xctest */,
+				A83E11932B8692B600958884 /* sakeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83E117B2B8692B500958884 /* sakeApp */ = {
+			isa = PBXGroup;
+			children = (
+				A83E117C2B8692B500958884 /* SakeApp.swift */,
+				A83E117E2B8692B500958884 /* ContentView.swift */,
+				A83E11802B8692B600958884 /* Assets.xcassets */,
+				A83E11822B8692B600958884 /* Preview Content */,
+				A83E11A62B86950900958884 /* SakeListView.swift */,
+				A83E11A82B86959D00958884 /* SakeMapView.swift */,
+				A83E11AA2B86963700958884 /* Sake.swift */,
+				A83E11AC2B86978400958884 /* SakeBrandListView.swift */,
+			);
+			path = sakeApp;
+			sourceTree = "<group>";
+		};
+		A83E11822B8692B600958884 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11832B8692B600958884 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A83E118C2B8692B600958884 /* sakeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83E118D2B8692B600958884 /* sakeAppTests.swift */,
+			);
+			path = sakeAppTests;
+			sourceTree = "<group>";
+		};
+		A83E11962B8692B600958884 /* sakeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11972B8692B600958884 /* sakeAppUITests.swift */,
+				A83E11992B8692B600958884 /* sakeAppUITestsLaunchTests.swift */,
+			);
+			path = sakeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83E11782B8692B500958884 /* sakeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E119D2B8692B600958884 /* Build configuration list for PBXNativeTarget "sakeApp" */;
+			buildPhases = (
+				A83E11752B8692B500958884 /* Sources */,
+				A83E11762B8692B500958884 /* Frameworks */,
+				A83E11772B8692B500958884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sakeApp;
+			productName = sakeApp;
+			productReference = A83E11792B8692B500958884 /* sakeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83E11882B8692B600958884 /* sakeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E11A02B8692B600958884 /* Build configuration list for PBXNativeTarget "sakeAppTests" */;
+			buildPhases = (
+				A83E11852B8692B600958884 /* Sources */,
+				A83E11862B8692B600958884 /* Frameworks */,
+				A83E11872B8692B600958884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83E118B2B8692B600958884 /* PBXTargetDependency */,
+			);
+			name = sakeAppTests;
+			productName = sakeAppTests;
+			productReference = A83E11892B8692B600958884 /* sakeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83E11922B8692B600958884 /* sakeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E11A32B8692B600958884 /* Build configuration list for PBXNativeTarget "sakeAppUITests" */;
+			buildPhases = (
+				A83E118F2B8692B600958884 /* Sources */,
+				A83E11902B8692B600958884 /* Frameworks */,
+				A83E11912B8692B600958884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83E11952B8692B600958884 /* PBXTargetDependency */,
+			);
+			name = sakeAppUITests;
+			productName = sakeAppUITests;
+			productReference = A83E11932B8692B600958884 /* sakeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83E11712B8692B500958884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A83E11782B8692B500958884 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A83E11882B8692B600958884 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A83E11782B8692B500958884;
+					};
+					A83E11922B8692B600958884 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A83E11782B8692B500958884;
+					};
+				};
+			};
+			buildConfigurationList = A83E11742B8692B500958884 /* Build configuration list for PBXProject "sakeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83E11702B8692B500958884;
+			productRefGroup = A83E117A2B8692B500958884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83E11782B8692B500958884 /* sakeApp */,
+				A83E11882B8692B600958884 /* sakeAppTests */,
+				A83E11922B8692B600958884 /* sakeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83E11772B8692B500958884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86074C82B869BD9008669DA /* Dev in Resources */,
+				A83E11842B8692B600958884 /* Preview Assets.xcassets in Resources */,
+				A83E11812B8692B600958884 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11872B8692B600958884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11912B8692B600958884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83E11752B8692B500958884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E11AD2B86978400958884 /* SakeBrandListView.swift in Sources */,
+				A83E117F2B8692B500958884 /* ContentView.swift in Sources */,
+				A83E11A92B86959D00958884 /* SakeMapView.swift in Sources */,
+				A83E11A72B86950900958884 /* SakeListView.swift in Sources */,
+				A83E11AB2B86963700958884 /* Sake.swift in Sources */,
+				A83E117D2B8692B500958884 /* SakeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11852B8692B600958884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E118E2B8692B600958884 /* sakeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E118F2B8692B600958884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E119A2B8692B600958884 /* sakeAppUITestsLaunchTests.swift in Sources */,
+				A83E11982B8692B600958884 /* sakeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83E118B2B8692B600958884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83E11782B8692B500958884 /* sakeApp */;
+			targetProxy = A83E118A2B8692B600958884 /* PBXContainerItemProxy */;
+		};
+		A83E11952B8692B600958884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83E11782B8692B500958884 /* sakeApp */;
+			targetProxy = A83E11942B8692B600958884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A83E119B2B8692B600958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A83E119C2B8692B600958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83E119E2B8692B600958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sakeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.sakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83E119F2B8692B600958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sakeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.sakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A83E11A12B8692B600958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.sakeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sakeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sakeApp";
+			};
+			name = Debug;
+		};
+		A83E11A22B8692B600958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.sakeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sakeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sakeApp";
+			};
+			name = Release;
+		};
+		A83E11A42B8692B600958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.sakeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sakeApp;
+			};
+			name = Debug;
+		};
+		A83E11A52B8692B600958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.sakeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sakeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83E11742B8692B500958884 /* Build configuration list for PBXProject "sakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E119B2B8692B600958884 /* Debug */,
+				A83E119C2B8692B600958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E119D2B8692B600958884 /* Build configuration list for PBXNativeTarget "sakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E119E2B8692B600958884 /* Debug */,
+				A83E119F2B8692B600958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E11A02B8692B600958884 /* Build configuration list for PBXNativeTarget "sakeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E11A12B8692B600958884 /* Debug */,
+				A83E11A22B8692B600958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E11A32B8692B600958884 /* Build configuration list for PBXNativeTarget "sakeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E11A42B8692B600958884 /* Debug */,
+				A83E11A52B8692B600958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83E11712B8692B500958884 /* Project object */;
+}
